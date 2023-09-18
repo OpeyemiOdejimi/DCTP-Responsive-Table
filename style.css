@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.table-wrapper{
+    width: 100%;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+}
+caption{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 1rem;
+}
+th, td {
+    text-align: start;
+    padding: 1rem;
+}
+tr{
+    background-color: #f2f2f2;
+}
